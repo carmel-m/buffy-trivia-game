@@ -10,10 +10,19 @@ h2 {
     color: rgb(170, 13, 13);
 }
 
-#start {
+#start, #start-again {
     padding: 15px 32px;
     text-align: center;
     font-size: 18px;
+}
+
+#question {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#answer-a, #answer-b, #answer-c, #answer-d {
+    padding: 5px;
 }
         
 #container {

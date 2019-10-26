@@ -127,10 +127,6 @@ window.onload = function () {
 }
 
 // click function for start button
-// $("#start").click(startGame);
-
-// function startGame() {
-
 $("#start").on("click", function () {
     nextQ();
     $("#time-remaining").show();
@@ -142,6 +138,31 @@ $("#start").on("click", function () {
     $("#answer-d").show();
     $("#start").hide();
     $("#image").hide();
+})
+
+// START AGAIN 
+$("#start-again").on("click", function () {
+    clearInterval(intervalId);
+    correct = 0;
+    incorrect = 0;
+    unanswered = 0;
+    time = 30;
+    counter = 0;
+    $("#start").show();
+    $("#image").show();
+    $("#time-remaining").hide();
+    $("#seconds-left").hide();
+    $("#question").hide();
+    $("#answer-a").hide();
+    $("#answer-b").hide();
+    $("#answer-c").hide();
+    $("#answer-d").hide();
+
+    $("#done").hide();
+    $("#start-again").hide();
+    $("#correct").hide();
+    $("#incorrect").hide();
+    $("#unanswered").hide();
 })
 
 // 
