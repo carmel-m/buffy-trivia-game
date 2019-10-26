@@ -1,0 +1,11 @@
+body {
+    background: lightslategray;
+    padding: 0px 200px;
+}
+
+#container {
+    background: white;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px;
+}
