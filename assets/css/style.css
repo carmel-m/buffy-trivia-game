@@ -1,11 +1,29 @@
 body {
-    background: lightslategray;
+    background: rgb(155, 154, 154);
     padding: 0px 200px;
 }
 
+h2 {
+    font-family: 'Rock Salt', cursive;
+    color: rgb(170, 13, 13);
+}
+
 #container {
-    background: white;
+    background: rgb(41, 46, 51);
     text-align: center;
     margin: 20px 20px;
     padding: 20px;
 }
+
+#image {
+    padding: 0px 20px 20px 20px;
+    /* margin: 40px 60px; */
+}
+
+#game, #final-display {
+    color: white;
+}
+
+/* font-family: 'Special Elite', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Rock Salt', cursive; */

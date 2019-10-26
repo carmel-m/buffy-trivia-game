@@ -110,6 +110,7 @@ var questions = [
 // will run when page loads
 window.onload = function () {
     $("#start").show();
+    $("#image").show();
     $("#time-remaining").hide();
     $("#seconds-left").hide();
     $("#question").hide();
@@ -140,6 +141,7 @@ $("#start").on("click", function () {
     $("#answer-c").show();
     $("#answer-d").show();
     $("#start").hide();
+    $("#image").hide();
 })
 
 // 
@@ -156,6 +158,7 @@ function endGame() {
         $("#unanswered").show();
 
         $("#start").hide();
+        $("#image").hide();
         $("#time-remaining").hide();
         $("#seconds-left").hide();
         $("#question").hide();
@@ -188,6 +191,7 @@ var nextQ = function () {
     }
 
     $("#start").hide();
+    $("#image").hide();
     $("#time-remaining").show();
     $("#seconds-left").show();
     $("#question").html(questions[counter].q);
