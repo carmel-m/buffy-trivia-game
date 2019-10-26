@@ -1,4 +1,6 @@
 body {
+    /* background-image: url("../images/lghtmesh_@2X.png"); */
+    /* background-image: url("../images/dark_geometric_@2X.png"); */
     background: rgb(155, 154, 154);
     padding: 0px 200px;
 }
@@ -8,6 +10,12 @@ h2 {
     color: rgb(170, 13, 13);
 }
 
+#start {
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+}
+        
 #container {
     background: rgb(41, 46, 51);
     text-align: center;
@@ -24,6 +32,11 @@ h2 {
     color: white;
 }
 
+#done {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 /* font-family: 'Special Elite', cursive;
 font-family: 'Yeseva One', cursive;
-font-family: 'Rock Salt', cursive; */

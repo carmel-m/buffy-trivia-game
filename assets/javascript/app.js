@@ -146,43 +146,43 @@ $("#start").on("click", function () {
 
 // 
 function endGame() {
-        clearInterval(intervalId);
-        $("#correct-total").text(correct);
-        $("#incorrect-total").text(incorrect);
-        $("#unanswered-total").text(unanswered);
+    clearInterval(intervalId);
+    $("#correct-total").text(correct);
+    $("#incorrect-total").text(incorrect);
+    $("#unanswered-total").text(unanswered);
 
-        $("#done").show();
-        $("#start-again").show();
-        $("#correct").show();
-        $("#incorrect").show();
-        $("#unanswered").show();
+    $("#done").show();
+    $("#start-again").show();
+    $("#correct").show();
+    $("#incorrect").show();
+    $("#unanswered").show();
 
-        $("#start").hide();
-        $("#image").hide();
-        $("#time-remaining").hide();
-        $("#seconds-left").hide();
-        $("#question").hide();
-        $("#answer-a").hide();
-        $("#answer-b").hide();
-        $("#answer-c").hide();
-        $("#answer-d").hide();
-    }
+    $("#start").hide();
+    $("#image").hide();
+    $("#time-remaining").hide();
+    $("#seconds-left").hide();
+    $("#question").hide();
+    $("#answer-a").hide();
+    $("#answer-b").hide();
+    $("#answer-c").hide();
+    $("#answer-d").hide();
+}
 
 // when counter = questions.length, end game and show results/gif
 
 // Makes time remaining decrease and move to next question if time runs out
 function decrement() {
-        time--;
-        // console.log(time);
-        $("#seconds-left").text(time);
+    time--;
+    // console.log(time);
+    $("#seconds-left").text(time);
 
-        if (time === 0) {
-            nextQ();
-            counter++;
-            unanswered++;
-            console.log(unanswered);
-        }
+    if (time === 0) {
+        nextQ();
+        counter++;
+        unanswered++;
+        console.log(unanswered);
     }
+}
 
 // function to display new questions/answer options on page -- needs to run when time runs out, or if player selects an answer
 var nextQ = function () {
