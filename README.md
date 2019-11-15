@@ -7,4 +7,4 @@ Languages/technologies used: JavaScript, jQuery, HTML, CSS,  Bootstrap
 
 Author: Carmel Meyer
 
-Website/portfolio: https://carmel-m.github.io/Bootstrap-Portfolio/
+Website/portfolio: https://carmel-m.github.io/ 
